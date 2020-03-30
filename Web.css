@@ -3,7 +3,36 @@
 	padding:0;
 	box-sizing:border-box;
 }
-
+.a{
+	background-image: url(img/sketch.jpg);
+	display:inline-block;
+	background-size: 100% 100%;
+}
+.b{
+	background-image: url("img/websuku.png");
+	display:inline-block;
+	background-size: 100% 100%;
+}
+.c{
+	background-image: url("img/write.jpg");
+	display:inline-block;
+	background-size: 100% 100%;
+}
+.d{
+	background-image: url("img/webcamp.png");
+	display:inline-block;
+	background-size: 100% 100%;
+}
+.e{
+	background-image: url("img/talk.jpg");
+	display:inline-block;
+	background-size: 100% 100%;
+}
+.f{
+	background-image: url("img/webcamp-mother.png");
+	display:inline-block;
+	background-size: 100% 100%;
+}
 nav{
 	height:70px;
 	background-color:#EC715F;
@@ -86,6 +115,9 @@ nav div {
 #A,#C{
 	background-color: #ECEFF1;
 }
+#A{
+	font-size: 0;
+}
 .top .portfolio{
 	margin:0 10px 10px 0;
 }
@@ -125,8 +157,10 @@ nav div {
 #B p{
 	font-size:16px;
 	color:#000000;
-	padding:30px 0;
 	text-align:center;
+}
+.O{
+	padding:30px 0px;
 }
 .feature{
 	width:320px;
@@ -155,7 +189,7 @@ nav div {
 }
 #features{
 	font-size:0;
-	padding:90px 0;
+	padding: 90px 0px;
 }
 #C h3{
 	font-size:32px;
@@ -323,11 +357,7 @@ footer{
 	font-size:18px;
 	color:#FAFAFA;
 	}
-	#portfolio{
-	width:90%;
-	padding:90px 0;
-	margin: 0 auto;
-}
+
 	.none{
 		display:none;
 	}
@@ -404,14 +434,18 @@ nav div {
 	margin:0 auto;
 }
 #portfolio{
-	width:300px;
-	height:250px
+	width:90%;
+	padding:90px 0;
+	text-align: center;
 
-	margin: 0 auto;
 }
-#portfolio:last-child{
+.portfolio{
+	width:300px;
+	margin:0 0 10px 0;
+}
+.portfolio:last-child{
 
-	margin-top:10px;
+	margin:0px;
 }
 .G{
 	text-align: center;
@@ -433,5 +467,11 @@ display:block;
 }
 .list-bar:first-child{
 	margin-top:10px;
+}
+.feature{
+	margin:0 0 10px 0;
+}
+.feature:last-child{
+	margin:0px;
 }
 }
